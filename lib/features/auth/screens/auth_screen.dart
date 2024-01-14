@@ -1,3 +1,4 @@
+import 'package:amazon_clone/common/custom_button.dart';
 import 'package:amazon_clone/common/widgets/custom_textfiels.dart';
 import 'package:amazon_clone/constants/global_variables.dart';
 import 'package:flutter/material.dart';
@@ -83,6 +84,11 @@ class _AuthScreenState extends State<AuthScreen> {
                           controller: _passwordController,
                           hintText: "Password",
                         ),
+                        const SizedBox(height: 10),
+                        CustomButton(
+                          text: "Sign Up",
+                          onTap: () {},
+                        )
                       ],
                     ),
                   ),
